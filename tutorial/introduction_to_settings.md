@@ -7,25 +7,25 @@ myproject/settings.py
 ফাইলের মধ্যে INSTALLED_APPS নামে একটা লিস্ট দেখতে পাবেন! যেটার ভিতরে এরকম কয়েকটা আইটেম থাকবেঃ
 
     INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
     ]
 
 আমাদের কাজ হল আমাদের তৈরি করা অ্যাপ এর নামটা এই লিস্টে ঢুকিয়ে দেয়া! লিস্টটি এডিট করে এরকম করে ফেলুনঃ
 
     INSTALLED_APPS = [
-    'myapp'
-    
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+        'myapp',
+
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
     ]
 
 লক্ষ্য করুন, আমরা লিস্টের ফার্স্ট আইটেম হিসেবে আমাদের অ্যাপ এর নাম স্ট্রিং হিসেবে দিয়ে দিয়েছি! আপনি হয়তো বুঝে গেছেন যে লিস্টের বাকি আইটেমগুলোও আসলে বিভিন্ন অ্যাপ এর নাম, যেগুলো আসলে খুবই কাজের, কমন কিছু বিষয় নিয়ে অহেতুক কষ্ট করে কোড লেখা থেকে আমাদের বাঁচিয়ে দেয়ার জন্য এগুলো জ্যাঙ্গোতে বিল্টিন ভাবেই থাকে, আমরা এ অ্যাপগুলো নিয়ে আস্তে আস্তে জানতে পারব!
