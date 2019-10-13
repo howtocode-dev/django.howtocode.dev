@@ -26,6 +26,9 @@
 	* [ইউআরএল কনফিগারেশন ইন ডেপথ](tutorial/url_configuration_in_depth.md)
 	* [ডায়নামিক কনটেন্ট](tutorial/dynamic_content.md)
 	* [এডমিন পরিচিতি](tutorial/introduction_to_admin.md)
+	* [প্রোডাকসান সার্ভার (Nginx) এবং জ্যাঙ্গো](tutorial/django_in_production_with_nginx.md)
+	
+
 	* [প্রথম প্রজেক্টঃ সিম্পল ইউআরএল শর্টেনার](tutorial/project_url_shortener.md)
 		* [শীঘ্রই আসছে]()
 	* [দ্বিতীয় প্রজেক্টঃ সিম্পল ব্লগ সাইট](tutorial/project_blog.md)
